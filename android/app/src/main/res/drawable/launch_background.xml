@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background color -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- Full-screen splash logo -->
+    <item>
+        <bitmap
+            android:gravity="fill"
+            android:src="@drawable/splash"
+            android:antialias="true"
+            android:tileMode="disabled" />
+    </item>
+
+</layer-list>
